@@ -23,3 +23,29 @@ test('gives the user an email', () => {
     expect(employeeEmail.name.length).toBeGreaterThan(0);
     expect(employeeEmail.value).toEqual(expect.any(String));
 });
+
+test('get the users name as an object', () => {
+    const employee = new Employee('Berta')
+
+    expect(employee.getName()).toHaveProperty('name');
+});
+
+test('get the users id as an object', () => {
+    const employee = new Employee(13)
+
+    expect(employee.getId()).toHaveProperty('id')
+});
+
+test('get the employees email', () => {
+    const employee = new Employee('happybunny25@gmail.com')
+
+    expect(employee.getEmail()).toHaveProperty('email')
+});
+
+test('get the employees role by getting all of their values', () => {
+    const employeeRoll = new Employee();
+
+    expect(employeeRoll.getRoll()).toHaveProperty('name');
+    expect(employeeRoll.getRoll()).toHaveProperty('id');
+    expect(employeeRoll.getRoll()).toHaveProperty('email');
+});
