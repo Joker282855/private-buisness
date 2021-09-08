@@ -8,7 +8,7 @@ const information = [
     {
         type: 'input',
         name: 'manager',
-        message: 'What is the name of your team Manager' 
+        message: 'What is the name of your team manager' 
     },
     {
         type: 'input',
@@ -22,8 +22,9 @@ const information = [
     },
     {
         type: 'input',
-        name: ''
-    }
+        name: 'office',
+        message: 'What is your office number'
+    },
 ]
 
 // Create a function to write an HTML file
