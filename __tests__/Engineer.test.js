@@ -17,4 +17,4 @@ test('get all of the values for Engineer with geRole', () => {
     const engineer = new Engineer()
 
     expect(engineer.getRole()).toHaveProperty('github');
-})
+});
