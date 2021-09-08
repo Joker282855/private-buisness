@@ -1,4 +1,7 @@
 const Engineer = require('../lib/Engineer.js');
+const Employee = require('../lib/Employee.js');
+
+jest.mock('../lib/Employee.js');
 
 test('create the github username from the employee', () => {
     const engineer = new Engineer('github');
