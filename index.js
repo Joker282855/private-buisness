@@ -32,23 +32,23 @@ const information = [{
     },
     {
         type: 'input',
-        name: 'engineerName',
-        message: 'what is the name of your engineer'
+        name: 'name',
+        message: 'what is the name of your engineer or intern'
     },
     {
         type: 'input',
-        name: 'engineerId',
-        message: 'What is the id of your engineer'
+        name: 'number',
+        message: 'What is the id of your engineer or intern'
     },
     {
         type: 'input',
-        name: 'engineerEmail',
-        message: 'What is the email of your engineer'
+        name: 'address',
+        message: 'What is the email of your engineer or intern'
     },
     {
         type: 'input',
         name: 'github',
-        message: 'What is the github username of your engineer'
+        message: 'What is the github username of your engineer or school of your intern'
     },
     {
         type: 'list',
@@ -58,23 +58,23 @@ const information = [{
     },
     {
         type: 'input',
-        name: 'internName',
-        message: 'What is the name of your intern'
+        name: 'nameTwo',
+        message: 'What is the name of your intern or engineer'
     },
     {
         type: 'input',
-        name: 'internId',
-        message: 'What is the ID number of your intern'
+        name: 'idTwo',
+        message: 'What is the ID number of your intern or engineer'
     },
     {
         type: 'input',
-        name: 'internEmail',
-        message: 'What is the email of your intern'
+        name: 'addressTwo',
+        message: 'What is the email of your intern or engineer'
     },
     {
         type: 'input',
-        name: 'internSchool',
-        message: 'Where did your intern attend school'
+        name: 'school',
+        message: 'Where did your intern attend school or what is the github link of your engineer'
     },
     {
         type: 'list',
