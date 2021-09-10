@@ -33,7 +33,7 @@ const information = [{
     {
         type: 'input',
         name: 'name',
-        message: 'what is the name of your engineer or intern'
+        message: 'what is the name of your engineer or intern and put enginner or intern next to their name based on your choice'
     },
     {
         type: 'input',
@@ -59,7 +59,7 @@ const information = [{
     {
         type: 'input',
         name: 'nameTwo',
-        message: 'What is the name of your intern or engineer'
+        message: 'What is the name of your intern or engineer and put engineer or intern next ot their name based on your choice'
     },
     {
         type: 'input',
