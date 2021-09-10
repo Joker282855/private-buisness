@@ -18,34 +18,34 @@ function generatePage(data) {
         </br>
         <main class="col-12 d-flex flex-row">
             <div class="container">
-                <div class="card bg-info">
+                <div class="card bg-light">
                     <h2>${data.manager}</h2>
                     <form class="card-body height 50%">
                         <label class="form-label">ID: ${data.employeeId}</label>
                         </br>
-                        <label class="form-label"><a href="${data.email}">Email:</a></label>
+                        <label class="form-label text-decroation-none"><a href="https://www.${data.email}">Email: https://www.${data.email}</a></label>
                         </br>
                         <label class="form-label">Office Number: ${data.office}
                     </form>
                 </div>
                 </br>
-                <div class="card bg-info">
+                <div class="card bg-light">
                     <h2>${data.name}</h2>
                     <form class="card-body height 50%">
                         <label class="form-label">ID: ${data.number}</label>
                         </br>
-                        <label class="form-label"><a href="${data.address}">Email:</a></label>
+                        <label class="form-label text-decoration-none"><a href="https://www.${data.address}">Email: https://www.${data.address}</a></label>
                         </br>
-                        <label class="form-label"><a href="${data.github}">School or Github:</a></label>
+                        <label class="form-label text-decoration-none"><a href="https://github.com/${data.github}">School or Github: https://github.com/${data.github}</a></label>
                     </form>
                 </div>
                 </br>
-                <div class="card bg-info">
+                <div class="card bg-light">
                     <h2>${data.nameTwo}</h2>
                     <form class="card-body">
                         <label class="form-lable">ID: ${data.idTwo}</label>
                         </br>
-                        <label class="form-label"><a href="${data.addressTwo}">Email:</a></label>
+                        <label class="form-label text-decoration-none"><a href="https://www.${data.addressTwo}">Email: https://www.${data.addressTwo}</a></label>
                         </br>
                         <label class="form-label">Github or School: ${data.school}</label>
                     </form>
