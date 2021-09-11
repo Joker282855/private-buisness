@@ -22,9 +22,6 @@ The tasks were achieved by reviewing modules nine and ten to get the structure a
 2.Node
 3.Javascript
 
-# Link to Website
-<a href="file:///C:/Users/Joshman/OneDrive/Bootcamp/private-buisness/index.html">Link to Webiste</a>
-
 # Link to Video Walkthrough
 <a href="https://drive.google.com/file/d/15ySvmoYdpbrm5tLA4XOHbbrdAURfBfTM/view">Link to Video Walkthrough</a> 
 
